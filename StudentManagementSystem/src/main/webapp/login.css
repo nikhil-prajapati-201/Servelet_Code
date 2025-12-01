@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* Global layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f8fafc;
+}
+
+/* Hero-style heading */
+h2 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1e3a8a;
+}
+
+/* Login form card */
+.form-card {
+    width: 80%;
+    max-width: 550px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 40px 50px;
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.10);
+}
+
+/* Form group (full width) */
+.form-group-full {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+/* Labels */
+label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 16px;
+    background: #f1f5f9;
+    outline: none;
+    transition: 0.25s ease;
+}
+
+/* Focus effect */
+input:focus {
+    border-color: #1e3a8a;
+    background: #ffffff;
+    box-shadow: 0 0 8px rgba(30,58,138,0.25);
+}
+
+/* Submit button */
+.btn {
+    width: 200px;
+    padding: 16px;
+    margin: 20px auto 5px;
+    display: block;
+    background: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 2px solid #1e3a8a;
+    transition: 0.25s ease;
+}
+
+/* Hover */
+.btn:hover {
+    background: white;
+    color: #1e3a8a;
+    transform: translateY(-3px);
+}
+
+/* Register text under button */
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.register-link a {
+    color: #1e3a8a;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,97 @@
+/* Global layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f8fafc;
+}
+
+/* Hero-style heading */
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1e3a8a;
+}
+
+/* Form container */
+.form-card {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 45px 45px;
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.10);
+}
+
+/* Two-column layout */
+.row {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    width: 100%;
+}
+
+/* Labels */
+label {
+    font-size: 15px;
+    font-weight: 600;
+    color: #444;
+    margin-top:12px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* Input and Select */
+input, select {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 15px;
+    background: #f1f5f9;
+    outline: none;
+    transition: 0.25s ease;
+}
+
+/* Focus effect */
+input:focus, select:focus {
+    border-color: #1e3a8a;
+    background: #ffffff;
+    box-shadow: 0 0 8px rgba(30,58,138,0.25);
+}
+
+/* Address full width */
+.form-group-full {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Submit button */
+.btn {
+    width: 200px;
+    padding: 14px;
+    margin: 25px auto 0;
+    display: block;
+    background: #1e3a8a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.25s ease;
+    border: 2px solid #1e3a8a;
+}
+
+/* Hover effect */
+.btn:hover {
+    background: white;
+    color: #1e3a8a;
+  
+}

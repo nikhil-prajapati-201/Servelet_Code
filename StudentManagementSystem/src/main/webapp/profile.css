@@ -1,0 +1,84 @@
+/* Background Gradient */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #ff4b8b, #ff7f57);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Whole page container */
+.page-bg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Profile Card */
+.profile-card {
+    width: 70%;
+    max-width: 900px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 40px 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    text-align: center;
+    position: relative;
+}
+
+/* Profile Heading */
+.profile-card h2 {
+    font-size: 34px;
+    color: #1e3a8a;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+/* Profile Content Container */
+.profile-container {
+    margin-top: 25px;
+}
+
+/* Each Row */
+.profile-row {
+    display: flex;
+    justify-content: space-between;
+    background: #f8f9ff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border-left: 5px solid #ff4b8b;
+    font-size: 17px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Label style */
+.profile-row span {
+    font-weight: 700;
+    color: #1e3a8a;
+}
+
+/* Hover animation */
+.profile-row:hover {
+    background: #eef2ff;
+    transform: translateX(5px);
+    transition: 0.3s ease;
+}
+
+/* Add circle image holder (optional if you add image later) */
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: url('images/profile.png') center/cover;
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
